@@ -1,0 +1,2 @@
+SELECT SEC_TO_TIME( SUM( TIME_TO_SEC( total_horas_dia ) ) ) 
+FROM  `alejandro.plancarte`
